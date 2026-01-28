@@ -542,17 +542,10 @@ export default function App() {
           {/* LOGO */}
           <div className="flex items-center gap-2">
             <img 
-              src="somente logo cor.jpg" 
+              src="logo.jpg" 
               alt="Mooney Logo" 
               className="h-10 w-auto object-contain"
-              onError={(e) => {
-                e.target.onerror = null; 
-                e.target.style.display = 'none';
-                e.target.nextSibling.style.display = 'flex';
-              }}
             />
-            {/* Fallback caso imagem não carregue */}
-            <div className="hidden font-bold text-2xl text-indigo-600 tracking-tighter">MOONEY</div>
           </div>
           
           {/* Desktop Nav */}
